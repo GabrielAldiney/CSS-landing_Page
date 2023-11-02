@@ -1,0 +1,138 @@
+@import url("./global.css");
+
+/*
+font-family: 'Archivo', sans-serif;
+font-family: 'Archivo Black', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+:root{
+    --colors-white:#FFF;
+    --colors-white-100:#FEFEFE;
+    --colors-white-200:#F2F2F2;
+    --colors-zinc-300:#B8B8B8;
+    --colors-zinc-500:#777777;
+    --colors-zinc-900:#1A1A1A;
+    --colors-violet-600:#815cef;
+
+    --gradient-1: linear-gradient(96deg, #FA97E3 10.63%, #FABB97 75.4%, #97B3FA 124.11%);
+    --gradient-2: linear-gradient(92deg, #FA97E3 2.37%, #FABB97 23.47%, #97B3FA 46.56%);
+
+}
+
+*/
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.card_title {
+  margin-top: 70px;
+  justify-content: center;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  gap: 268px;
+  display: flex;
+  flex-direction: row;
+}
+
+.card_title > ul {
+  display: flex;
+  align-items: flex-start;
+  gap: 50px;
+  list-style: none;
+}
+
+.card_title > .title {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn-contact {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 50px;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  background: var(
+    --gradient-1,
+    linear-gradient(96deg, #fa97e3 10.63%, #fabb97 75.4%, #97b3fa 124.11%)
+    
+  );
+
+  font: 700 18px "Poppins", sans-serif;
+}
+
+.header {
+  margin-top: 176px;
+  margin-left: 162px;
+}
+
+.header__subtitle {
+  display: block;
+
+  font: 900 1.5rem "Satoshi Variable", arial;
+
+  background: var(--gradient-1);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header__title {
+  color: #0d0628;
+  font: 400 130px "Archivo Black", arial;
+  line-height: 143px;
+  letter-spacing: 0.36px;
+}
+
+.text__gradient{
+
+  text-transform: capitalize;
+  background: var(--gradient-2);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header__text {
+  max-width: 730px;
+  color: var(--colors-zinc-500);
+  font: 400 18px "Poppins", arial;
+  margin-top: 20px;
+  text-wrap: wrap;
+}
+
+.showcase {
+  list-style: none;
+  padding: 0px 164px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  justify-content: space-between;
+  background: #0d0628;
+}
+
+.showcase > li > i {
+  vertical-align: middle;
+  font-size: 25px;
+}
+
+.showcase > li {
+  padding: 82px 0;
+}
+
+.btn-contact > i {
+  font-size: 25px;
+}
+
+.container {
+  padding: 200px 162px;
+}

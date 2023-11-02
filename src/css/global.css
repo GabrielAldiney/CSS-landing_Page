@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;600;800&family=Montserrat:wght@600&family=Nunito+Sans:opsz@6..12&family=Poppins:ital,wght@0,400;0,600;0,700;1,700&display=swap');
+
+:root{
+    --colors-white:#FFF;
+    --colors-white-100:#FEFEFE;
+    --colors-white-200:#F2F2F2;
+    --colors-zinc-300:#B8B8B8;
+    --colors-zinc-500:#777777;
+    --colors-zinc-900:#1A1A1A;
+    --colors-violet-600:#815cef;
+
+    /*Gradient*/
+    --gradient-1: linear-gradient(96deg, #FA97E3 10.63%, #FABB97 75.4%, #97B3FA 124.11%);
+    --gradient-2: linear-gradient(92deg, #FA97E3 2.37%, #FABB97 23.47%, #97B3FA 46.56%);;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    font: 400 1rem 'Archivo', sans-serif;
+}
+
+img{
+    max-width: 100%;    
+}
+
+button{
+    cursor: pointer;
+}
+
