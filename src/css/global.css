@@ -11,7 +11,8 @@
 
     /*Gradient*/
     --gradient-1: linear-gradient(96deg, #FA97E3 10.63%, #FABB97 75.4%, #97B3FA 124.11%);
-    --gradient-2: linear-gradient(92deg, #FA97E3 2.37%, #FABB97 23.47%, #97B3FA 46.56%);;
+    --gradient-2: linear-gradient(92deg, #FA97E3 2.37%, #FABB97 23.47%, #97B3FA 46.56%);
+    --gradient-3: linear-gradient(93deg, #F897E4 17.54%, #9DB3EB 99.27%);
 }
 
 *{
